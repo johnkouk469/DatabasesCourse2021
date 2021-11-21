@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T11:32:28.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="hGXttV_aA_hTpOgO9TiJ" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T17:39:33.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YZUEjfA40acTy30TmgLy" version="15.8.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1005" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="988" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -458,24 +458,6 @@
             <mxPoint x="410" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZdWGNfyRv0KmOVRU79v5-139" value="model" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="610" y="180" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZdWGNfyRv0KmOVRU79v5-140" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="ZdWGNfyRv0KmOVRU79v5-144" target="ZdWGNfyRv0KmOVRU79v5-139" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="651.4539303678105" y="310.0084574426073" as="sourcePoint" />
-            <mxPoint x="740" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZdWGNfyRv0KmOVRU79v5-142" value="yearOfManucturing" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="691.43" y="140" width="103" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZdWGNfyRv0KmOVRU79v5-143" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="ZdWGNfyRv0KmOVRU79v5-144" target="ZdWGNfyRv0KmOVRU79v5-142" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660.680959303271" y="310.4616598110897" as="sourcePoint" />
-            <mxPoint x="730" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ZdWGNfyRv0KmOVRU79v5-144" value="carID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
           <mxGeometry x="610" y="310" width="100" height="40" as="geometry" />
         </mxCell>
@@ -509,10 +491,10 @@
         <mxCell id="ZdWGNfyRv0KmOVRU79v5-152" value="phoneNumber" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
           <mxGeometry x="160" y="10" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWEfYQdw3QmrjEnDfTO9-1" value="estimatedUntil" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+        <mxCell id="kWEfYQdw3QmrjEnDfTO9-1" value="estimatedUntil" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="481.43" y="850" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWEfYQdw3QmrjEnDfTO9-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ZdWGNfyRv0KmOVRU79v5-29" target="kWEfYQdw3QmrjEnDfTO9-1">
+        <mxCell id="kWEfYQdw3QmrjEnDfTO9-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="ZdWGNfyRv0KmOVRU79v5-29" target="kWEfYQdw3QmrjEnDfTO9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="970" as="sourcePoint" />
             <mxPoint x="560" y="970" as="targetPoint" />
