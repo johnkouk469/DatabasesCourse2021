@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T20:33:50.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6JduJYMbY9aVNNyDBrSo" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T20:43:16.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pWOrIkIRml9QvyscCk21" version="15.8.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1718" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="650" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,19 +338,6 @@
         </mxCell>
         <mxCell id="XlElBiJng3Dh-zHdLyVW-1" value="carLN" style="whiteSpace=wrap;html=1;align=center;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="50" y="50" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XlElBiJng3Dh-zHdLyVW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XlElBiJng3Dh-zHdLyVW-2" target="TR8fkiSkL70Aa_DhrPbM-65" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="800" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="830" y="160" />
-              <mxPoint x="830" y="800" />
-              <mxPoint x="290" y="800" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XlElBiJng3Dh-zHdLyVW-2" value="connectedConnectorID" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="390" y="140" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XlElBiJng3Dh-zHdLyVW-4" value="connectorType" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="545" y="740" width="100" height="40" as="geometry" />
