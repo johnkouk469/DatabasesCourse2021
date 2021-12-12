@@ -51,7 +51,6 @@ CREATE TABLE IF NOT EXISTS `evpointdb`.`connector` (
   `connectorID` INT NOT NULL,
   `connectorType` ENUM('TESLA-TYPE2,TYPE2,CCS') NULL DEFAULT NULL,
   `availability` INT NULL DEFAULT NULL,
-  `Connectorcol` VARCHAR(45) NULL DEFAULT NULL,
   `chargingStation_companyName` VARCHAR(25) NOT NULL,
   `chargingStation_latitude` DECIMAL(2,2) NOT NULL,
   `chargingStation_longtitude` DECIMAL(2,2) NOT NULL,
