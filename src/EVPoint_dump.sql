@@ -241,9 +241,9 @@ INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES
 INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES ('ΝΚΗ2478', 'ThsMarias', load_file('C:\Users\harry\Downloads\maria.jpg'), '“Το θέλει στις 6μ.μ. στο γραφείο μόλις τελειώσει την δουλειά”');
 
 
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`, `meanStars`) VALUES ('Tesla', '40.640534', '50.643326', '4.25');
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`, `meanStars`) VALUES ('Ev box', '80.367344', '34.235643', '3.76');
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`, `meanStars`) VALUES ('Virta', '35.464354', '63.655754', '4.63');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Tesla', '40.640534', '50.643326');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Ev box', '80.367344', '34.235643');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Virta', '35.464354', '63.655754');
 
 INSERT INTO `evpointdb`.`connector` (`connectorID`, `connectorType`, `availability`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`) VALUES ('045675', 'Tesla TYPE 2', '-1', 'Tesla', '50.623544', '40.646534');
 INSERT INTO `evpointdb`.`connector` (`connectorID`, `connectorType`, `availability`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`) VALUES ('013554', 'TYPE 2', '1', 'Ev box', '34.243453', '80.354766');
