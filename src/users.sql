@@ -14,7 +14,9 @@ GRANT 'stuff' TO 'kostakis'@'localhost';
 CREATE ROLE 'developer';
 
 GRANT SELECT,INSERT,UPDATE ON evpointdb.* TO 'developer';
-REVOKE SELECT,INSERT,UPDATE ON evpointdb.user FROM 'developer';
+REVOKE SELECT ON evpointdb.user FROM 'developer';
+REVOKE INSERT ON evpointdb.user FROM 'developer';
+REVOKE UPDATE ON evpointdb.user FROM 'developer';
 GRANT 'developer' TO 'maria'@'localhost';
 
 CREATE ROLE 'User';
