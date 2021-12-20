@@ -1,0 +1,3 @@
+select connectorType, chargingStation_companyName, chargingStation_latitude, chargingStation_longtitude
+from connector
+where availability = 1

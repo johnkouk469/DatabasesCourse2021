@@ -235,8 +235,12 @@ CREATE TABLE IF NOT EXISTS `evpointdb`.`chargingStationMeanStars` (`companyName`
 DROP TABLE IF EXISTS `evpointdb`.`nearRSA`;
 USE `evpointdb`;
 CREATE  OR REPLACE VIEW `nearRSA` AS 
-select *
-from evpointdb.RSA;
+select userID, rsa.phoneNumber as rsaNumber
+from user join rsa
+where ( user.latitude > rsa.latitude - 0.1 )
+and ( user.latitude < rsa.latitude + 0.1 )
+and ( user.longtitude > rsa.longtitude - 0.1 )
+and ( user.longtitude < rsa.longtitude + 0.1 );
 
 -- -----------------------------------------------------
 -- View `evpointdb`.`nearAvailConnectors`
@@ -244,8 +248,13 @@ from evpointdb.RSA;
 DROP TABLE IF EXISTS `evpointdb`.`nearAvailConnectors`;
 USE `evpointdb`;
 CREATE  OR REPLACE VIEW `nearAvailConnectors` AS
-select *
-from evpointdb.connector;
+select userID, connectorID, chargingStation_companyName, chargingStation_latitude, chargingStation_longtitude, connectorType
+from user join connector
+where ( user.latitude > chargingStation_latitude - 0.75 )
+and ( user.latitude < chargingStation_latitude + 0.75 )
+and ( user.longtitude > chargingStation_longtitude - 0.75 )
+and ( user.longtitude < chargingStation_longtitude + 0.75 )
+and availability = 1;
 
 -- -----------------------------------------------------
 -- View `evpointdb`.`chargingStationMeanStars`
@@ -253,8 +262,11 @@ from evpointdb.connector;
 DROP TABLE IF EXISTS `evpointdb`.`chargingStationMeanStars`;
 USE `evpointdb`;
 CREATE  OR REPLACE VIEW `chargingStationMeanStars` AS
-SELECT *
-from evpointdb.chargingstation;
+select chargingStation_companyName, chargingStation_latitude, chargingStation_longtitude, avg(stars) as meanStars
+from evpointdb.user_reviews_chargingstation join evpointdb.chargingstation 
+on chargingStation_companyName = companyName and chargingStation_latitude = latitude and chargingStation_longtitude = longtitude
+group by chargingStation_companyName, chargingStation_latitude, chargingStation_longtitude
+order by meanStars desc;
 INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES ('XEE1547', 'Tesla Plaid', load_file('C:\Users\harry\Downloads\200923113237_Tesla-Model-S-plaid-1.jpg'), '“Hype 400+km/h”');
 INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES ('ZYZ4647', 'Pyraulos', load_file('C:\Users\harry\Downloads\bloodhound_rtq_2.jpg'), '“Το αυτοκινητάκι μου”');
 INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES ('IKA7801', 'Ducati', load_file('C:\Users\harry\Downloads\1946_Ducati_DU4_01.jpg'), '“Τα εσκασα”');
@@ -263,9 +275,9 @@ INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES
 INSERT INTO `evpointdb`.`car` (`licenseNumber`, `name`, `photo`, `notes`) VALUES ('ΝΚΗ2478', 'ThsMarias', load_file('C:\Users\harry\Downloads\maria.jpg'), '“Το θέλει στις 6μ.μ. στο γραφείο μόλις τελειώσει την δουλειά”');
 
 
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Tesla', '40.640534', '50.643326');
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Ev box', '80.367344', '34.235643');
-INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Virta', '35.464354', '63.655754');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Tesla', '50.643326', '40.640534');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Ev box', '34.235643', '80.367344');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Virta', '63.655754', '35.464354');
 
 INSERT INTO `evpointdb`.`connector` (`connectorID`, `connectorType`, `availability`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`) VALUES ('045675', 'Tesla TYPE 2', '-1', 'Tesla', '50.623544', '40.646534');
 INSERT INTO `evpointdb`.`connector` (`connectorID`, `connectorType`, `availability`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`) VALUES ('013554', 'TYPE 2', '1', 'Ev box', '34.243453', '80.354766');
@@ -284,6 +296,7 @@ INSERT INTO `evpointdb`.`occupiedconnector` (`OccupiedConnectorID`, `connectedCa
 INSERT INTO `evpointdb`.`rsa` (`phoneNumber`, `name`, `longtitude`, `latitude`) VALUES ('231024509', 'RED ASSISTANCE', '37.955127', '23.649335');
 INSERT INTO `evpointdb`.`rsa` (`phoneNumber`, `name`, `longtitude`, `latitude`) VALUES ('231024543', 'KAMZELIS', '40.685302', '22.938323');
 INSERT INTO `evpointdb`.`rsa` (`phoneNumber`, `name`, `longtitude`, `latitude`) VALUES ('231024556', 'KYRALEKOS', '40.763412', '23.526123');
+INSERT INTO `evpointdb`.`rsa` (`phoneNumber`, `name`, `longtitude`, `latitude`) VALUES ('210454785', 'MICHELEN', '36.564215', '21.456455');
 
 INSERT INTO `evpointdb`.`user` (`userID`, `phoneNumber`, `longtitude`, `latitude`) VALUES ('015265', '691234568', '37.451234', '23.429335');
 INSERT INTO `evpointdb`.`user` (`userID`, `phoneNumber`, `longtitude`, `latitude`) VALUES ('012546', '692345679', '36.564215', '21.456455');
@@ -314,11 +327,18 @@ INSERT INTO `evpointdb`.`user_owns_car` (`User_userID`, `Car_licenseNumber`) VAL
 UPDATE `evpointdb`.`chargingstation` SET `companyName` = 'Virta' WHERE (`companyName` = 'Virta') and (`latitude` = '63.655754') and (`longtitude` = '35.464354');
 UPDATE `evpointdb`.`chargingstation` SET `companyName` = 'Tesla' WHERE (`companyName` = 'Ev box') and (`latitude` = '50.643326') and (`longtitude` = '40.640534');
 UPDATE `evpointdb`.`chargingstation` SET `companyName` = 'Ev box' WHERE (`companyName` = 'Tesla') and (`latitude` = '34.235643') and (`longtitude` = '80.367344');
+UPDATE `evpointdb`.`user` SET `longtitude` = '35.465786', `latitude` = '63.622335' WHERE (`userID` = '368145');
+
 
 
 INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('056352', 'Tesla', '50.643326', '40.640534', '2', 'slow', '2021-12-22');
+INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('056352', 'Tesla', '50.643326', '40.640534', '4', 'slow', '2021-12-23');
+INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('056352', 'Tesla', '50.643326', '40.640534', '5', 'slow', '2021-12-24');
+INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('056352', 'Tesla', '50.643326', '40.640534', '3', 'slow', '2021-12-25');
+INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('056352', 'Tesla', '50.643326', '40.640534', '2', 'slow', '2021-12-26');
 INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('169872', 'Ev box', '34.235643', '80.367344', '1', '-', '2021-12-22');
 INSERT INTO `evpointdb`.`user_reviews_chargingstation` (`User_userID`, `chargingStation_companyName`, `chargingStation_latitude`, `chargingStation_longtitude`, `stars`, `comment`, `date`) VALUES ('161099', 'Virta', '63.655754', '35.464354', '3', 'good', '2021-12-22');
+INSERT INTO `evpointdb`.`chargingstation` (`companyName`, `latitude`, `longtitude`) VALUES ('Tesla', '23.000624', '40.124556');
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

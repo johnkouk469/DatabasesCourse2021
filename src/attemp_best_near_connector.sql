@@ -1,0 +1,8 @@
+select nearavailconnectors.chargingStation_companyName, nearavailconnectors.chargingStation_latitude, nearavailconnectors.chargingStation_longtitude, max(meanStars)
+from nearavailconnectors join chargingstationmeanstars
+where nearavailconnectors.chargingStation_companyName = chargingstationmeanstars.chargingStation_companyName
+and nearavailconnectors.chargingStation_latitude = chargingstationmeanstars.chargingStation_latitude
+and nearavailconnectors.chargingStation_longtitude = chargingstationmeanstars.chargingStation_longtitude
+
+
+
