@@ -1,5 +1,13 @@
-select connectorID, occupiedEstimatedUntil
-from connector join occupiedconnector on connectorID = OccupiedConnectorID
-where (chargingStation_companyName = "Tesla") 
-and (chargingStation_latitude = 50.623544 )
-and (chargingStation_longtitude = 40.646534);
+-- Connectors that are occupied right now and when each is expected to be free again.
+-- To look at one station only, add for example:
+--   AND c.chargingStation_companyName = 'YourOperator'
+SELECT c.connectorID,
+       c.chargingStation_companyName,
+       c.chargingStation_latitude,
+       c.chargingStation_longtitude,
+       o.occupiedEstimatedUntil
+FROM connector c
+JOIN occupiedconnector o ON c.connectorID = o.OccupiedConnectorID
+WHERE c.availability = -1
+  AND o.occupiedUntil IS NULL
+ORDER BY o.occupiedEstimatedUntil;

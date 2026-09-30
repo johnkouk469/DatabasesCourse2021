@@ -1,0 +1,1263 @@
+{
+ "source": "Open Charge Map (https://openchargemap.org)",
+ "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); imported records keep the licence of their data provider",
+ "fetched_at_utc": "2026-09-30",
+ "query": {
+  "countrycode": "GR",
+  "latitude": 37.9838,
+  "longitude": 23.7275,
+  "distance": 15,
+  "distanceunit": "KM",
+  "maxresults": 300
+ },
+ "stations": [
+  {
+   "ocm_id": 21208,
+   "title": "Polis Park Rizari",
+   "town": "Athens",
+   "latitude": 37.9745816074289,
+   "longitude": 23.7460788312134,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:18:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "type_id": 33,
+     "power_kw": 50,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 10,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 22,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 21219,
+   "title": "PlugQ Polis Park Kannigos",
+   "town": "Athens",
+   "latitude": 37.9852590285392,
+   "longitude": 23.7310493155888,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "type_id": 33,
+     "power_kw": 50,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 7,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 14,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 21227,
+   "title": "PlugQ Polis Park Pl. Aigyptou",
+   "town": "Athens",
+   "latitude": 37.9918632469622,
+   "longitude": 23.73226583004,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 9,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 9,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 21228,
+   "title": "PlugQ Polis Park N. Smyrni",
+   "town": "Nea Smyrni",
+   "latitude": 37.9477446337774,
+   "longitude": 23.7130907177925,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 12,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 24,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 21229,
+   "title": "PlugQ Polis Park N.Paidon",
+   "town": "Athens",
+   "latitude": 37.9833101354292,
+   "longitude": 23.7662923336029,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 14,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 18,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 21230,
+   "title": "PlugQ Polis Park Piraeus",
+   "town": "Piraeus",
+   "latitude": 37.938807245357125,
+   "longitude": 23.638973156207044,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 12,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 7.4,
+     "quantity": 22,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113318,
+   "title": "Groupama Asfalistiki",
+   "town": "Nea Smyrni",
+   "latitude": 37.948587,
+   "longitude": 23.70664099999999,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-01T20:38:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113319,
+   "title": "Athens Marriott Hotel",
+   "town": "Paleo Faliro",
+   "latitude": 37.940889,
+   "longitude": 23.69666069999994,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-01T20:37:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113478,
+   "title": "Charge & Drive Acharnes  Epirotiko ",
+   "town": "Acharnes",
+   "latitude": 38.0911042,
+   "longitude": 23.75692170000002,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-16T10:42:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113502,
+   "title": "Charge & Drive Nea Filadelfia",
+   "town": "Nea Filadelfia",
+   "latitude": 38.03892812507848,
+   "longitude": 23.7345601644181,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-16T10:32:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113608,
+   "title": "Hotel Zafolia",
+   "town": "Athens ",
+   "latitude": 37.9894926,
+   "longitude": 23.74670590000005,
+   "operator": "(Business Owner at Location)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-23T16:21:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 113609,
+   "title": "SEMIRAMIS Hotel",
+   "town": "Kifisia",
+   "latitude": 38.0746659,
+   "longitude": 23.821280300000012,
+   "operator": "(Business Owner at Location)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2018-12-23T16:21:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 114220,
+   "title": "Watt + Volt Kifisias",
+   "town": "Marousi",
+   "latitude": 38.0598227,
+   "longitude": 23.8085754,
+   "operator": "(Business Owner at Location)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-01-05T17:11:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 114353,
+   "title": "Ministry of Energy & Environment",
+   "town": "Athens",
+   "latitude": 37.991308609209284,
+   "longitude": 23.771042062040703,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-01-06T18:16:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 118685,
+   "title": "Πέτρου Ράλλη",
+   "town": "Municipal Unit of Nikaia",
+   "latitude": 37.97863317742751,
+   "longitude": 23.67272389593245,
+   "operator": "(Business Owner at Location)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-10-21T12:35:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Europlug 2-Pin (CEE 7/16)",
+     "type_id": 13,
+     "power_kw": 3.7,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 125082,
+   "title": "Auto Motive Specialist Verouhis",
+   "town": "Municipality of Alimos",
+   "latitude": 37.9253351978153,
+   "longitude": 23.7417294766991,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-04-10T18:36:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 125083,
+   "title": "Venetsianos Service",
+   "town": "Municipal Unit of Moschato",
+   "latitude": 37.9563966887139,
+   "longitude": 23.6891990610301,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-04-10T10:18:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 125912,
+   "title": "COSMOS CAR PARK",
+   "town": "Athens",
+   "latitude": 37.9624391,
+   "longitude": 23.7252066,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-05-08T18:53:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 131901,
+   "title": "Cityzen Parking Pyrgos",
+   "town": "Athens",
+   "latitude": 37.9841473209273,
+   "longitude": 23.7603484946676,
+   "operator": "FORTISIS",
+   "status": "Partly Operational (Mixed)",
+   "operational": true,
+   "date_last_verified": "2021-06-13T20:40:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 134063,
+   "title": "Cityzen Aithrio",
+   "town": "Municipality of Marousi",
+   "latitude": 38.0474439410938,
+   "longitude": 23.8045413352086,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-11-22T18:38:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 134483,
+   "title": "Cityzen Dikastiria Evelpidon",
+   "town": "Athens",
+   "latitude": 37.994737773014734,
+   "longitude": 23.740916573177515,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2019-11-14T08:14:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 134744,
+   "title": "Cityzen Fragokklisias",
+   "town": "Municipality of Marousi",
+   "latitude": 38.039443960421124,
+   "longitude": 23.8025286484517,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2026-09-14T14:54:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 146213,
+   "title": "Αμφιθέας",
+   "town": "",
+   "latitude": 37.94349452627492,
+   "longitude": 23.700667484629435,
+   "operator": "Blink Charging",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-01-09T16:26:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 146214,
+   "title": "Ι.ΚΤΕΟ Κόμβος Κηφισιάς Ε.Π.Ε., 2, Γρανικού, Paradeisos, Marousi, Municipality of Marousi",
+   "town": "Municipality of Marousi",
+   "latitude": 38.040393564927314,
+   "longitude": 23.803773609389964,
+   "operator": "Blink Charging",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-01-09T16:21:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 146215,
+   "title": "54 Λιοσίων",
+   "town": "Athens",
+   "latitude": 37.99093924341783,
+   "longitude": 23.72398339156848,
+   "operator": "Blink Charging",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-01-09T16:27:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 149390,
+   "title": "Divani Caravel Hotel",
+   "town": "Athènes",
+   "latitude": 37.97296033830003,
+   "longitude": 23.751377555011345,
+   "operator": null,
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-02-25T15:24:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 149443,
+   "title": "Divani Palace Acropolis",
+   "town": "Athens",
+   "latitude": 37.96773292960397,
+   "longitude": 23.725634026261446,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-02-25T21:32:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 149626,
+   "title": "Cityzen Em. Benaki",
+   "town": "Athens",
+   "latitude": 37.982918427805785,
+   "longitude": 23.730050894435635,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-03-02T16:50:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 149984,
+   "title": "Cityzen Cronos",
+   "town": "Municipality of Marousi",
+   "latitude": 38.04808569816697,
+   "longitude": 23.804938811550414,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-03-17T12:54:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 155961,
+   "title": "Marina Flisvos",
+   "town": "Regional Unit of South Athens",
+   "latitude": 37.93216923820485,
+   "longitude": 23.68590989975519,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-05-01T09:53:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 161608,
+   "title": "Xenofontos 4 Parking",
+   "town": "Athens",
+   "latitude": 37.97421751047398,
+   "longitude": 23.73436704637743,
+   "operator": "Blink Charging",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2020-07-17T20:42:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector) ",
+     "type_id": 1036,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 171527,
+   "title": "Ydrogios Insurance",
+   "town": "Kallithea",
+   "latitude": 37.9502069884319,
+   "longitude": 23.707629041332098,
+   "operator": "(Business Owner at Location)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-05-01T09:23:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 171528,
+   "title": "Plateia Eleftherias (Eleftherias Sqr)",
+   "town": "korydallos",
+   "latitude": 37.97755021281209,
+   "longitude": 23.649729579391078,
+   "operator": "Blink Charging (Europe)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-01-11T08:42:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 172798,
+   "title": "Athens Supercharger",
+   "town": "Marousi",
+   "latitude": 38.03502755,
+   "longitude": 23.79099382,
+   "operator": "Tesla (including non-tesla)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2024-05-20T11:07:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "type_id": 33,
+     "power_kw": 150,
+     "quantity": 6,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 172914,
+   "title": "LOTUS CAR RENTAL",
+   "town": "Regional Unit of North Athens",
+   "latitude": 38.015852472672776,
+   "longitude": 23.838592598756122,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-03-06T18:13:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 174472,
+   "title": "Marina Zeas",
+   "town": "Piraeus",
+   "latitude": 37.93152714268659,
+   "longitude": 23.646913837980037,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-07-01T10:11:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 175620,
+   "title": "Paradise Parking",
+   "town": "Piraeus",
+   "latitude": 37.94722201463122,
+   "longitude": 23.648059487949922,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-06-02T07:40:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 188196,
+   "title": "ZeniΘ  Peristeri Shop",
+   "town": "Regional Unit of West Athens",
+   "latitude": 38.00759712123127,
+   "longitude": 23.698594005588575,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-07-16T20:05:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 188971,
+   "title": "Paradise Parking Sevastoupoleos",
+   "town": "Athens",
+   "latitude": 37.992585085901794,
+   "longitude": 23.76809794972644,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-08-31T11:08:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 189529,
+   "title": "AB VASSILOPOULOS",
+   "town": "NEA IONIA",
+   "latitude": 38.03554278901768,
+   "longitude": 23.7484376207899,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-10-17T15:12:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 4,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 189534,
+   "title": "dti",
+   "town": "Ν. Ιωνία",
+   "latitude": 38.03378770658617,
+   "longitude": 23.770233391614738,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-10-14T08:21:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CEE 5 Pin",
+     "type_id": 17,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "CEE 5 Pin",
+     "type_id": 17,
+     "power_kw": 11,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Europlug 2-Pin (CEE 7/16)",
+     "type_id": 13,
+     "power_kw": 3.6,
+     "quantity": 3,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 189642,
+   "title": "Dinokratous 51 street",
+   "town": "Athens",
+   "latitude": 37.97997563238391,
+   "longitude": 23.745449330569613,
+   "operator": "Motionbox",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2021-10-22T07:56:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 3.7,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 191054,
+   "title": "ΚΤΕΟ Autovision Thivon",
+   "town": "Municipal Unit of Agios Ioannis Rentis",
+   "latitude": 37.970793055339655,
+   "longitude": 23.664521576725974,
+   "operator": "FORTISIS",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2022-01-16T16:00:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 471548,
+   "title": "PlugQ VW Koilakos",
+   "town": "Καλλιθέα",
+   "latitude": 37.94560237348719,
+   "longitude": 23.701871058906363,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:43:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "type_id": 33,
+     "power_kw": 30,
+     "quantity": 1,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 471549,
+   "title": "PlugQ Dukes of Plakendia",
+   "town": "Αγ. Παρασκευή",
+   "latitude": 38.02204862756372,
+   "longitude": 23.83436589396149,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:43:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "type_id": 33,
+     "power_kw": 120,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    },
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 4,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  },
+  {
+   "ocm_id": 471550,
+   "title": "PlugQ athensmarina",
+   "town": "Πειραιάς",
+   "latitude": 37.938356561083225,
+   "longitude": 23.669211229865937,
+   "operator": "(Unknown Operator)",
+   "status": "Operational",
+   "operational": true,
+   "date_last_verified": "2025-12-27T11:38:00Z",
+   "data_provider": "Open Charge Map Contributors",
+   "data_provider_license": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "data_provider_open_licensed": true,
+   "connections": [
+    {
+     "type": "Type 2 (Socket Only)",
+     "type_id": 25,
+     "power_kw": 22,
+     "quantity": 2,
+     "status": "Operational",
+     "operational": true
+    }
+   ]
+  }
+ ]
+}

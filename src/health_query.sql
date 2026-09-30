@@ -1,5 +1,6 @@
+-- Health readings of the car(s) driven by user 012546.
 SELECT *
 FROM health
-WHERE Car_licenseNumber = (SELECT licenseNumber
-							FROM user_drives_car JOIN car ON car_licenseNumber = licenseNumber
-							WHERE User_userID = 012546 )
+WHERE Car_licenseNumber IN (SELECT car_licenseNumber
+                            FROM user_drives_car
+                            WHERE user_userID = '012546');
