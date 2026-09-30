@@ -33,7 +33,7 @@ from pathlib import Path
 
 DEFAULT_BASE_URL = "https://api.openchargemap.io/v3"
 USER_AGENT = (
-    "EVPointDB-course-sample/1.0 (https://github.com/johnkouk469/DatabasesCourse2021)"
+    "EVPointDB-course-sample/1.0 (https://github.com/johnkouk469/EVPointDB)"
 )
 
 
