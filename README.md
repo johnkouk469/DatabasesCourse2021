@@ -1,3 +1,5 @@
+<p align="center"><img src="Assets/EVPoint_logo.png" alt="EVPoint logo" width="160"></p>
+
 # EVPointDB
 
 Relational database design and MySQL implementation for **EVPoint**, a mobile
@@ -22,9 +24,24 @@ The database `evpointdb` has 11 tables and 3 views.
 
 `connector.availability` is `1` (available), `-1` (occupied) or `0` (out of service).
 
-The ER and relational diagrams are in `EVP_ER.drawio` and `EVP_RD.drawio`
-(open with [diagrams.net](https://app.diagrams.net)). The MySQL Workbench model
-is `src/EVPoint.mwb`.
+## Design
+
+The course had two parts: first a written design of the database (what data
+it stores, who uses it, and how it is modelled), then its implementation in
+MySQL. The design is summarized below with the entity-relationship diagram and
+the relational diagram. The full write-up (entities, relationships, user
+categories, relations, views and the assumptions behind them) is in
+[`docs/DESIGN.md`](docs/DESIGN.md).
+
+![Entity-relationship diagram](Assets/EVP_ER.png)
+
+*ER diagram (source: `EVP_ER.drawio`).*
+
+![Relational diagram](Assets/EVP_RD.png)
+
+*Relational diagram (source: `EVP_RD.drawio`). The `.drawio` files open in
+[diagrams.net](https://app.diagrams.net). The MySQL Workbench model is
+`src/EVPoint.mwb`.*
 
 ## Repository layout
 
@@ -34,10 +51,11 @@ is `src/EVPoint.mwb`.
 | `src/users.sql` | Example users, roles and privileges |
 | `src/*_query.sql`, `src/best_near_connector.sql` | Example queries |
 | `src/EVPoint.mwb` | MySQL Workbench model |
-| `EVP_ER.drawio`, `EVP_RD.drawio` | ER and relational diagrams |
+| `EVP_ER.drawio`, `EVP_RD.drawio` | ER and relational diagrams (editable sources) |
+| `docs/DESIGN.md` | Design summary, condensed from the course report |
 | `data/ocm_athens_snapshot.json` | Snapshot of real charging stations (Open Charge Map) |
 | `tools/` | Scripts that download the snapshot and rebuild the sample data |
-| `Assets/` | Schema image used in this README |
+| `Assets/` | Images used in this README (schema, diagrams, logo) |
 
 ## Sample data
 
